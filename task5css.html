@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Task 5</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            color: rgb(156, 4, 4);
+            background-color: rgb(189, 189, 58);
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start; /* Vertically align items to the top */
+            margin-top: 150px;
+            margin-right: 500px;
+            margin-left: 300px;
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 150px;
+        }
+        .horizontal-line {
+            border: 1px solid rgb(156, 4, 4); /* Set the border properties */
+            margin: 20px 0; /* Adjust margin as needed */
+        }
+        
+        .sidebar {
+            width: 30%; /* Set the width of the sidebar */
+            display: flex;
+            flex-direction: column; /* Arrange buttons vertically */
+        }
+        
+        .content{
+            padding-left: 20px;
+            /* padding-right: 350px; */
+        }
+        button {
+            background: linear-gradient(to right, #ffffff 90%, #000000 10%);
+            color: rgb(0, 0, 121);
+            font-family: 'Times New Roman', Times, serif;
+            margin-bottom: 10px;
+            text-align: left;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .btn:hover{
+            cursor:pointer;
+            background: gray;
+        }
+        
+        /* Add any other styles you need for your content */
+        
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <button class="btn" class="bbrown"><b>Home page</b></button>
+        <button class="btn"><b>Musbings</b></button>
+        <button class="btn"><b>My town</b></button>
+        <button class="btn"><b>Links</b></button>
+      </div>
+      <div class="content">
+        <h1>My first styled page</h1>
+        <p>
+          <br />Welcome to my styled page!<br /><br />It lacks an image, but at
+          least it has style. And it has links, even if they don't go
+          anywhere...<br /><br />There should be more here, but I don't know
+          what yet.
+        </p>
+        <hr class="horizontal-line" />
+        <p>
+          <br /><i>Made 5 April 2004 <br />by myself</i>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
